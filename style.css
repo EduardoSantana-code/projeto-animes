@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Biryani:wght@200&family=Noto+Serif+Armenian:wght@600&family=Oswald:wght@700&family=Roboto+ Laje&display=swap');
+
+
+
+@font-face {
+             
+  font-family:'saiyan';
+  src: url('Saiyan-Sans.ttf')format('truetype');
+  font-weight: normal;
+
+
+
+
+}
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+:root {
+   --cor0:#F9C344;
+   --cor1:#F5E9CE;
+   --cor2:#F46E49;
+
+
+--font-padrao:arial,verdana,helvetica,sans-serif;
+--font-destaque: "bebas neue", sans-serif;
+--font-saiyan: 'saiyan',cursive;
+
+
+ 
+}
+
+body {
+         background-color: var(--cor0);
+         font-family: var(--font-padrao);
+
+
+}
+
+header {
+        background-color: var(--cor2);
+        min-height: 150px;
+        text-align: center;
+        padding-top: 40px;
+
+}
+
+header > h1 {
+            font-family: var(--font-saiyan);
+            font-size: 5em;
+            font-weight: normal; 
+            margin-bottom: 20px; 
+
+
+}
+
+nav {
+     background-color: var(--cor2);
+     padding: 10px;
+     border-radius: 0px 7px 7px rgba(0, 0 , 0, 0.192);
+     
+}
+
+nav > a {
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration:0,5s ;
+    
+
+
+
+}
+
+;
