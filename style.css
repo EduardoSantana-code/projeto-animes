@@ -64,23 +64,98 @@ header > h1 {
 }
 
 nav {
-     background-color: var(--cor2);
+     background-color: var(--cor0);
      padding: 10px;
      border-radius: 0px 7px 7px rgba(0, 0 , 0, 0.192);
      
 }
 
 nav > a {
-    color: #ffffff;
+    color: #000000;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition-duration:0,5s ;
-    
+  
+
+
+}
+
+nav > a:hover {
+               background-color: var(--cor1);
+               color: black;
 
 
 
 }
 
-;
+main {
+         min-width: 300px;
+         max-width: 1000px;
+         margin: auto;
+         margin-bottom: 30px;
+         padding: 20px;
+         background-color:var(--cor1);
+         box-shadow: 0px 0px 10px rgba(0, 0 , 0, 0.418);
+         border-bottom-left-radius: 10px;
+         border-top-right-radius: 10px;
+
+
+
+
+
+}
+
+
+main p {
+            margin: 15px 0px;
+            text-align: justify;
+            text-indent: 30px;
+            font-size: 1em;
+            line-height: 2em;
+
+
+
+
+
+}
+
+
+.conteudo {
+  display: table; 
+
+}
+.imagem {
+   display:table-cell ;
+   float: right;
+
+}
+
+.texto {
+   display: table-cell;
+   float: right;
+   width:470px ;
+
+
+}
+
+img {
+max-width: 390px;
+display: block;
+margin: auto;
+ 
+}
+
+div p {
+ text-align: left;
+
+}
+
+ main h1 {
+ text-align: justify;
+ text-indent: 445px;
+ font-size: 2em;
+ line-height: 2em;
+
+}
