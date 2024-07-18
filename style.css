@@ -122,30 +122,6 @@ main p {
 }
 
 
-.conteudo {
-  display: table; 
-
-}
-.imagem {
-   display:table-cell ;
-   float: right;
-
-}
-
-.texto {
-   display: table-cell;
-   float: right;
-   width:470px ;
-
-
-}
-
-img {
-max-width: 390px;
-display: block;
-margin: auto;
- 
-}
 
 div p {
  text-align: left;
