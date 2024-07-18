@@ -163,5 +163,49 @@ div p {
 main img {
      width: 100%;
 
+}
+
+aside > h3 {
+           background-color: var(--cor2);
+           color: white;
+           padding: 10px;
+           margin: -10px -10px 0px -10px;
+           border-radius: 10px 10px 0px 0px;
+
+    
+}
+aside {
+background-color: var(--cor0);
+padding: 10px;
+border-radius: 10px;
+box-shadow: 3px 3px 8px  rgba(0, 0, 0, 0.280);
+
+
+}
+
+
+aside > ul {
+         list-style-type:'\2714\00a0\00a0';
+         list-style-position: inside;
+         columns: 2
+
+
+
+}
+
+aside > p {
+ text-indent: 9px;
+
+}
+
+
+
+div {
+   margin: 15px 0px;
+   text-align: justify;
+   text-indent: -1px;
+   font-size: 1em;
+   line-height: 2em;
+
 
 }
