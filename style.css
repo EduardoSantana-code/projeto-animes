@@ -58,13 +58,13 @@ header > h1 {
             font-family: var(--font-saiyan);
             font-size: 6em;
             font-weight: normal;
-            margin-bottom: 20px; 
+            padding-bottom: 50px; 
 
 
 }
 
 nav {
-     background-color: var(--cor0);
+     background-color: var(--cor2);
      padding: 10px;
      border-radius: 0px 7px 7px rgba(0, 0 , 0, 0.192);
      
