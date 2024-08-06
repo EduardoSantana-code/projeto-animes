@@ -42,14 +42,14 @@
 }
 
 body {
-         background-color: var(--cor0);
+   background-image:linear-gradient( to bottom, #0000ff, #ffffff);   
          font-family: var(--font-padrao);
 
 
 }
 
 header {
-       background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+       background-image: linear-gradient(to bottom, #3153b5, #182135);
         min-height: 150px;
         text-align: center;
         padding-top: 40px;
@@ -66,7 +66,7 @@ header > h1 {
 }
 
 nav {
-     background-color:var(--cor4);
+     background-color:#995709;
      padding: 10px;
      border-radius: 0px 7px 7px rgba(0, 0 , 0, 0.192);
      
@@ -98,7 +98,7 @@ main {
          margin: auto;
          margin-bottom: 30px;
          padding: 20px;
-         background-color:var(--cor1);
+         background-color: var(--cor1);
          box-shadow: 0px 0px 10px rgba(0, 0 , 0, 0.418);
          border-bottom-left-radius: 10px;
          border-top-right-radius: 10px;
@@ -168,7 +168,7 @@ main img {
 }
 
 aside > h3 {
-           background-color: var(--cor2);
+           background-color:#060404; 
            color: white;
            padding: 10px;
            margin: -10px -10px 0px -10px;
@@ -177,7 +177,7 @@ aside > h3 {
     
 }
 aside {
-background-color: var(--cor0);
+background-color: #4c60bb;
 padding: 10px;
 border-radius: 10px;
 box-shadow: 3px 3px 8px  rgba(0, 0, 0, 0.280);
@@ -223,7 +223,7 @@ main h2 {
 }
 
 div.video {
-   background-color: var(--cor2);
+   background-color: var(--cor1);
    margin: 0px -20px 30px -20px;
    padding: 20px;
    padding-bottom: 58%;
@@ -243,3 +243,4 @@ div.video > iframe {
 
 
 }
+
