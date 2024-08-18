@@ -42,14 +42,14 @@
 }
 
 body {
-   background-image:linear-gradient( to bottom, #0000ff, #ffffff);   
+   background-image:linear-gradient( to bottom, #FFFFFF, #0000ff);   
          font-family: var(--font-padrao);
 
 
 }
 
 header {
-       background-image: linear-gradient(to bottom, #3153b5, #182135);
+       background-image: linear-gradient(to bottom, #cb3512, #b91111);
         min-height: 150px;
         text-align: center;
         padding-top: 40px;
@@ -66,7 +66,7 @@ header > h1 {
 }
 
 nav {
-     background-color:#995709;
+     background-color:#4D83BBD9;
      padding: 10px;
      border-radius: 0px 7px 7px rgba(0, 0 , 0, 0.192);
      
@@ -244,3 +244,8 @@ div.video > iframe {
 
 }
 
+div h3 {
+        font-family: var(--font-destaque);
+         text-align: center;
+         font-size: 2.5em;
+}
