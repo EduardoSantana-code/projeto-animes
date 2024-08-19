@@ -60,10 +60,28 @@ header > h1 {
             font-family: var(--font-saiyan);
             font-size: 6em;
             font-weight: normal;
-            padding-bottom: 50px; 
+            padding-bottom: 50px;
+            color: #efb022; 
 
 
 }
+
+header p {
+        color: #efb022;
+        font-family: var(--font-destaque);
+        font-size: 1.2em;
+        max-width: 500px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: auto;
+        padding-bottom: 50px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+
+
+
+}
+
+
 
 nav {
      background-color:#995709;
@@ -117,10 +135,14 @@ main p {
             font-size: 1em;
             line-height: 2em;
 
+}
 
-
-
-
+main a {
+       color: #3153b5;
+       font-weight: bold;
+      text-decoration: none;
+      background-color: coral;
+      padding: 2px 6px;
 }
 
 
