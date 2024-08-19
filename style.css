@@ -61,7 +61,10 @@ header > h1 {
             font-size: 6em;
             font-weight: normal;
             padding-bottom: 50px;
-            color: #efb022; 
+           display: inline;
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           background-image: linear-gradient(to right,#efb022 61%,#efb022 33%,#ff0000 33%,#ff0000 66%);
 
 
 }
