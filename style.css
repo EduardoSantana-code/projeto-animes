@@ -271,6 +271,7 @@ div.video > iframe {
 
 div h3 {
         font-family: var(--font-destaque);
-         text-align: center;
+        text-align: center;
          font-size: 2em;
 }
+ 
