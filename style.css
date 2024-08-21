@@ -42,7 +42,7 @@
 }
 
 body {
-   background-image:linear-gradient( to bottom, #FFFFFF, #0000ff);   
+   background-image:linear-gradient( to bottom, #0000ff, #ffff);   
          font-family: var(--font-padrao);
 
 
